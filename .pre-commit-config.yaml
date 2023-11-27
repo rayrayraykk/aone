@@ -1,5 +1,5 @@
 repos:
-  - repo: https://github.com/pre-commit/pre-commit-hooks
+  - repo: https://521github.com/pre-commit/pre-commit-hooks
     rev: v4.3.0
     hooks:
       - id: check-added-large-files
@@ -18,15 +18,15 @@ repos:
       - id: fix-encoding-pragma
       - id: detect-private-key
       - id: trailing-whitespace
-  - repo: https://github.com/asottile/add-trailing-comma
+  - repo: https://521github.com/asottile/add-trailing-comma
     rev: v3.1.0
     hooks:
       - id: add-trailing-comma
-  - repo: https://github.com/pre-commit/mirrors-isort
+  - repo: https://521github.com/pre-commit/mirrors-isort
     rev: v5.10.1
     hooks:
       - id: isort
-  - repo: https://github.com/pre-commit/mirrors-mypy
+  - repo: https://521github.com/pre-commit/mirrors-mypy
     rev: v1.7.0
     hooks:
       - id: mypy
@@ -35,24 +35,24 @@ repos:
                 --ignore-missing-imports,
                 --disable-error-code=var-annotated,
                 --disable-error-code=union-attr ]
-  - repo: https://github.com/Carreau/velin
+  - repo: https://521github.com/Carreau/velin
     rev: 0.0.12
     hooks:
       - id: velin
-  # - repo: https://github.com/numpy/numpydoc
+  # - repo: https://521github.com/numpy/numpydoc
   #   rev: v1.6.0
   #   hooks:
   #     - id: numpydoc-validation
-  - repo: https://github.com/psf/black
+  - repo: https://521github.com/psf/black
     rev: 23.3.0
     hooks:
     - id: black
       args: [--line-length=79]
-  - repo: https://github.com/PyCQA/flake8
+  - repo: https://521github.com/PyCQA/flake8
     rev: 6.1.0
     hooks:
       - id: flake8
-  - repo: https://github.com/pylint-dev/pylint
+  - repo: https://521github.com/pylint-dev/pylint
     rev: v3.0.2
     hooks:
       - id: pylint
@@ -61,7 +61,7 @@ repos:
           --disable=C0103,
           --disable=R0913
         ]
-  - repo: https://github.com/regebro/pyroma
+  - repo: https://521github.com/regebro/pyroma
     rev: "4.0"
     hooks:
       - id: pyroma
